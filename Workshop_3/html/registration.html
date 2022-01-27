@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+    FirstName : <input type="text" placeholder="Firstname"> <br>
+    Lastname  : <input type="text" placeholder="Lastname"> <br>
+    Address   : <input type="text" placeholder="Address" maxlength="50"> <br>
+    Birthdate : <input type="date" placeholder="Birthdate"> <br>
+    Pincode   : <select name="city" id="cities" onchange="selection()">
+        <option >Select a City</option>
+        <option value="411">Pune</option>
+        <option value="500">Hyderabad</option>
+        <option value="380">Ahmedabad</option>
+        <option value="560">Bangalore</option>
+        <option value="600">Chennai</option>
+    </select>
+    <input type="text" id="selectBox">
+
+    <script src="../js/registration.js"></script>
+</body>
+</html>
